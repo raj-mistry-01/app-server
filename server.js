@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 
 // Store the ngrok URL in-memory (for now, you can enhance this with a database if needed)
-let ngrokUrl = 'https://f537-2409-40c1-203b-7956-2053-74f9-1471-7797.ngrok-free.app';
+let ngrokUrl = ' https://a91d-2409-40c1-e-f319-a1db-42f4-3852-b2db.ngrok-free.app';
 
 // Endpoint to get the latest ngrok URL
 app.get('/ngrok-url', (req, res) => {
